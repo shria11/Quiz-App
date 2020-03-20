@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".QuizActivity">
+
+        <!--QUESTION 1-->
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight"
+            android:paddingTop="20dp"
+            android:text="@string/Question1" />
+
+        <RadioGroup
+            android:id="@+id/Question1"
+            style="@style/radio_group_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="190" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="203" />
+
+            <RadioButton
+                android:id="@+id/Question1Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="195" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200" />
+        </RadioGroup>
+
+
+        <!--QUESTION 2-->
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question2" />
+
+        <RadioGroup
+            android:id="@+id/Question2"
+            style="@style/radio_group_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Question2Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qatar" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Singapore" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Luxembourg" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="China" />
+        </RadioGroup>
+
+
+        <!--QUESTION 3-->
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight"
+            android:text="@string/Question3" />
+
+        <RadioGroup
+            android:id="@+id/Question3"
+            style="@style/radio_group_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maldives" />
+
+            <RadioButton
+                android:id="@+id/Question3Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vatican City" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grenada" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barbados" />
+        </RadioGroup>
+
+
+        <!--QUESTION 4-->
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question4" />
+
+        <RadioGroup
+            android:id="@+id/Question4"
+            style="@style/radio_group_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nile" />
+
+            <RadioButton
+                android:id="@+id/Question4Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amazon" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saint Lawrence" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flinders" />
+        </RadioGroup>
+
+        <!--QUESTION 5-->
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryLight"
+            android:text="@string/Question5" />
+
+        <RadioGroup
+            android:id="@+id/Question5"
+            style="@style/radio_group_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delhi" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tokyo" />
+
+            <RadioButton
+                android:id="@+id/Question5Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beijing" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cairo" />
+        </RadioGroup>
+
+        <!--QUESTION 6-->
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question6" />
+
+        <RadioGroup
+            android:id="@+id/Question6"
+            style="@style/radio_group_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Question6Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dubai" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shanghai" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New York City" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mecca" />
+        </RadioGroup>
+
+        <!--QUESTION 7-->
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight"
+            android:text="@string/Question7" />
+
+        <RadioGroup
+            android:id="@+id/Question7"
+            style="@style/radio_group_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight">
+
+            <RadioButton
+                android:id="@+id/Question7Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asia" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Europe" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Australia" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Africa" />
+        </RadioGroup>
+
+        <!--QUESTION 8-->
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question8" />
+
+        <RadioGroup
+            android:id="@+id/Question8"
+            style="@style/radio_group_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Question8Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mcumurdo, Antartica" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sahara Desert" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atacama Desert" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kufra, Libya" />
+        </RadioGroup>
+
+
+        <!--QUESTION 9-->
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight"
+            android:text="@string/Question9" />
+
+        <RadioGroup
+            android:id="@+id/Question9"
+            style="@style/radio_group_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Africa" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="North America" />
+
+            <RadioButton
+                android:id="@+id/Question9Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asia" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Antartica" />
+        </RadioGroup>
+
+
+        <!--QUESTION 10-->
+
+        <TextView
+            android:id="@+id/Question10"
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question10" />
+
+        <CheckBox
+            android:id="@+id/correct1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nepal" />
+
+        <CheckBox
+            android:id="@+id/correct2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pakistan" />
+
+        <CheckBox
+            android:id="@+id/incorrect1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switzerland" />
+
+        <CheckBox
+            android:id="@+id/incorrect2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="America" />
+
+        <!--QUESTION 11-->
+
+        <TextView
+            android:id="@+id/Question11"
+            style="@style/question_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight"
+            android:text="@string/Question11" />
+
+        <EditText
+            android:id="@+id/Question11Ans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight"
+            android:hint="please enter your answer"
+            android:inputType="text"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorAccent"
+            android:text="SUBMIT" />
+
+    </LinearLayout>
+</ScrollView>

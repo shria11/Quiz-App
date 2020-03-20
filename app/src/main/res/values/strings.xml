@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="Question1">1) Total number of countries in the world?</string>
+    <string name="Question2">2) What is the richest country in the world?</string>
+    <string name="Question3">3) What is the smallest country in the world?</string>
+    <string name="Question4">4) What is the largest river in the world?</string>
+    <string name="Question5">5) What\'s the largest city in the world by population?</string>
+    <string name="Question6">6) Where is the world\'s tallest skyscraper?</string>
+    <string name="Question7">7) What is the Earth\'s largest continent?</string>
+    <string name="Question8">8) What is the driest place on earth?</string>
+    <string name="Question9">9) What continent contains the most fresh water?</string>
+    <string name="Question10">10) Where do the world\'\s highest mountain peaks lie on?</string>
+    <string name="Question11">11) How many counties are there in Africa? (in number)</string>
+    <string name="AppTitle">GEOGRAPHY QUIZ</string>
+</resources>
